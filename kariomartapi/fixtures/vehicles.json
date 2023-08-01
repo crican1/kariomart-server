@@ -1,0 +1,66 @@
+[
+  {
+    "model": "kariomartapi.vehicle",
+    "pk": 1,
+    "fields": {
+      "name": "Standard Kart",
+      "image_url": "https://example.com/standard_kart.png"
+    }
+  },
+  {
+    "model": "kariomartapi.vehicle",
+    "pk": 2,
+    "fields": {
+      "name": "Mach 8",
+      "image_url": "https://example.com/mach_8.png"
+    }
+  },
+  {
+    "model": "kariomartapi.vehicle",
+    "pk": 3,
+    "fields": {
+      "name": "Cat Cruiser",
+      "image_url": "https://example.com/cat_cruiser.png"
+    }
+  },
+  {
+    "model": "kariomartapi.vehicle",
+    "pk": 4,
+    "fields": {
+      "name": "Blue Falcon",
+      "image_url": "https://example.com/blue_falcon.png"
+    }
+  },
+  {
+    "model": "kariomartapi.vehicle",
+    "pk": 5,
+    "fields": {
+      "name": "Biddybuggy",
+      "image_url": "https://example.com/biddybuggy.png"
+    }
+  },
+  {
+    "model": "kariomartapi.vehicle",
+    "pk": 6,
+    "fields": {
+      "name": "Flame Rider",
+      "image_url": "https://example.com/flame_rider.png"
+    }
+  },
+  {
+    "model": "kariomartapi.vehicle",
+    "pk": 7,
+    "fields": {
+      "name": "Teddy Buggy",
+      "image_url": "https://example.com/teddy_buggy.png"
+    }
+  },
+  {
+    "model": "kariomartapi.vehicle",
+    "pk": 8,
+    "fields": {
+      "name": "Sports Coupe",
+      "image_url": "https://example.com/sports_coupe.png"
+    }
+  }
+]
