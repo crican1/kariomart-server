@@ -1,0 +1,66 @@
+[
+  {
+    "model": "kariomartapi.charactervehicle",
+    "pk": 1,
+    "fields": {
+      "character_id": 1,
+      "vehicle_id": 1
+    }
+  },
+  {
+    "model": "kariomartapi.charactervehicle",
+    "pk": 2,
+    "fields": {
+      "character_id": 1,
+      "vehicle_id": 2
+    }
+  },
+  {
+    "model": "kariomartapi.charactervehicle",
+    "pk": 3,
+    "fields": {
+      "character_id": 2,
+      "vehicle_id": 3
+    }
+  },
+  {
+    "model": "kariomartapi.charactervehicle",
+    "pk": 4,
+    "fields": {
+      "character_id": 2,
+      "vehicle_id": 4
+    }
+  },
+  {
+    "model": "kariomartapi.charactervehicle",
+    "pk": 5,
+    "fields": {
+      "character_id": 3,
+      "vehicle_id": 5
+    }
+  },
+  {
+    "model": "kariomartapi.charactervehicle",
+    "pk": 6,
+    "fields": {
+      "character_id": 3,
+      "vehicle_id": 6
+    }
+  },
+  {
+    "model": "kariomartapi.charactervehicle",
+    "pk": 7,
+    "fields": {
+      "character_id": 4,
+      "vehicle_id": 7
+    }
+  },
+  {
+    "model": "kariomartapi.charactervehicle",
+    "pk": 8,
+    "fields": {
+      "character_id": 4,
+      "vehicle_id": 8
+    }
+  }
+]

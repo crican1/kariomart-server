@@ -1,0 +1,74 @@
+[
+  {
+    "model": "kariomartapi.character",
+    "pk": 1,
+    "fields": {
+      "name": "Mario",
+      "favorite": true,
+      "image_url": "https://example.com/mario.png"
+    }
+  },
+  {
+    "model": "kariomartapi.character",
+    "pk": 2,
+    "fields": {
+      "name": "Toad",
+      "favorite": false,
+      "image_url": "https://example.com/toad.png"
+    }
+  },
+  {
+    "model": "kariomartapi.character",
+    "pk": 3,
+    "fields": {
+      "name": "Luigi",
+      "favorite": true,
+      "image_url": "https://example.com/luigi.png"
+    }
+  },
+  {
+    "model": "kariomartapi.character",
+    "pk": 4,
+    "fields": {
+      "name": "Princess Peach",
+      "favorite": false,
+      "image_url": "https://example.com/peach.png"
+    }
+  },
+  {
+    "model": "kariomartapi.character",
+    "pk": 5,
+    "fields": {
+      "name": "Yoshi",
+      "favorite": true,
+      "image_url": "https://example.com/yoshi.png"
+    }
+  },
+  {
+    "model": "kariomartapi.character",
+    "pk": 6,
+    "fields": {
+      "name": "Bowser",
+      "favorite": false,
+      "image_url": "https://example.com/bowser.png"
+    }
+  },
+  {
+    "model": "kariomartapi.character",
+    "pk": 7,
+    "fields": {
+      "name": "Donkey Kong",
+      "favorite": true,
+      "image_url": "https://example.com/donkey_kong.png"
+    }
+  },
+  {
+    "model": "kariomartapi.character",
+    "pk": 8,
+    "fields": {
+      "name": "Wario",
+      "favorite": false,
+      "image_url": "https://example.com/wario.png"
+    }
+  }
+]
