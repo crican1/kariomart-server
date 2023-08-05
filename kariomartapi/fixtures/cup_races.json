@@ -1,0 +1,61 @@
+[
+  {
+    "model": "kariomartapi.cuprace",
+    "pk": 1,
+    "fields": {
+      "cup_id": 1,
+      "cup_race_id": 1
+    }
+  },
+  {
+    "model": "kariomartapi.cuprace",
+    "pk": 2,
+    "fields": {
+      "cup_id": 1,
+      "cup_race_id": 2
+    }
+  },
+  {
+    "model": "kariomartapi.cuprace",
+    "pk": 3,
+    "fields": {
+      "cup_id": 2,
+      "cup_race_id": 3
+    }
+  },  {
+    "model": "kariomartapi.cuprace",
+    "pk": 4,
+    "fields": {
+      "cup_id": 3,
+      "cup_race_id": 4
+    }
+  },  {
+    "model": "kariomartapi.cuprace",
+    "pk": 5,
+    "fields": {
+      "cup_id": 3,
+      "cup_race_id": 5
+    }
+  },  {
+    "model": "kariomartapi.cuprace",
+    "pk": 6,
+    "fields": {
+      "cup_id": 3,
+      "cup_race_id": 6
+    }
+  },  {
+    "model": "kariomartapi.cuprace",
+    "pk": 7,
+    "fields": {
+      "cup_id": 4,
+      "cup_race_id": 7
+    }
+  },  {
+    "model": "kariomartapi.cuprace",
+    "pk": 8,
+    "fields": {
+      "cup_id": 4,
+      "cup_race_id": 8
+    }
+  }
+]

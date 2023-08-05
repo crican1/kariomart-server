@@ -3,80 +3,80 @@
     "model": "kariomartapi.map",
     "pk": 1,
     "fields": {
-      "name": "Mushroom Kingdom",
+      "name": "Mushroom City",
       "difficulty": "Beginner",
-      "theme": "",
-      "image_url": "https://example.com/mushroom_cup.png"
+      "theme": "City",
+      "image_url": "https://mario.wiki.gallery/images/c/cb/Mario_Kart_8_-_Mushroom_Cup_logo.svg"
     }
   },
   {
     "model": "kariomartapi.map",
     "pk": 2,
     "fields": {
-      "name": "Flower Fields",
+      "name": "Luigi Circuit",
       "difficulty": "Beginner",
-      "theme": "",
-      "image_url": "https://example.com/flower_cup.png"
+      "theme": "Circuit",
+      "image_url": "https://mario.wiki.gallery/images/c/cb/Mario_Kart_8_-_Mushroom_Cup_logo.svg"
     }
   },
   {
     "model": "kariomartapi.map",
     "pk": 3,
     "fields": {
-      "name": "Starry Skies",
+      "name": "Boo Lake",
       "difficulty": "Intermediate",
-      "theme": "",
-      "image_url": "https://example.com/star_cup.png"
+      "theme": "Water",
+      "image_url": "https://mario.wiki.gallery/images/0/0b/Mario_Kart_8_-_Flower_Cup_logo.svg"
     }
   },
   {
     "model": "kariomartapi.map",
     "pk": 4,
     "fields": {
-      "name": "Special World",
+      "name": "Waluigi Stadium",
       "difficulty": "Intermediate",
-      "theme": "",
-      "image_url": "https://example.com/special_cup.png"
+      "theme": "Stadium",
+      "image_url": "https://mario.wiki.gallery/images/0/0b/Mario_Kart_8_-_Flower_Cup_logo.svg"
     }
   },
   {
     "model": "kariomartapi.map",
     "pk": 5,
     "fields": {
-      "name": "Koopa Troopa Beach",
+      "name": "Snow Land",
       "difficulty": "Advanced",
-      "theme": "",
-      "image_url": "https://example.com/shell_cup.png"
+      "theme": "Snow",
+      "image_url": "https://mario.wiki.gallery/images/7/7a/MK8_Star_Cup_Alternate_Emblem.svg"
     }
   },
   {
     "model": "kariomartapi.map",
     "pk": 6,
     "fields": {
-      "name": "Donkey Kong Jungle",
+      "name": "Sunshine Airport",
       "difficulty": "Advanced",
-      "theme": "",
-      "image_url": "https://example.com/banana_cup.png"
+      "theme": "City",
+      "image_url": "https://mario.wiki.gallery/images/7/7a/MK8_Star_Cup_Alternate_Emblem.svg"
     }
   },
   {
     "model": "kariomartapi.map",
     "pk": 7,
     "fields": {
-      "name": "Autumn Leaves",
+      "name": "Broken Pier",
       "difficulty": "Expert",
-      "theme": "",
-      "image_url": "https://example.com/leaf_cup.png"
+      "theme": "Water",
+      "image_url": "https://mario.wiki.gallery/images/4/4b/MK8_Special_Cup_Alternate_Emblem.svg"
     }
   },
   {
     "model": "kariomartapi.map",
     "pk": 8,
     "fields": {
-      "name": "Electric Circuit",
+      "name": "Dino Dino Jungle",
       "difficulty": "Expert",
-      "theme": "",
-      "image_url": "https://example.com/lightning_cup.png"
+      "theme": "Jungle",
+      "image_url": "https://mario.wiki.gallery/images/4/4b/MK8_Special_Cup_Alternate_Emblem.svg"
     }
   }
 ]
