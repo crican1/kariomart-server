@@ -3,7 +3,7 @@ from rest_framework.viewsets import ViewSet
 from rest_framework.response import Response
 from rest_framework import serializers, status
 from kariomartapi.serializers import RaceSerializer
-from kariomartapi. models import CharacterVehicle, Map, Race
+from kariomartapi. models import Map, Race, Character, Vehicle
 
 class RaceView(ViewSet):
   
@@ -26,33 +26,57 @@ class RaceView(ViewSet):
         return Response(serializer.data)
 
     def create(self, request):
+        character_id = request.data.get("character_id")
+        vehicle_id = request.data.get("vehicle_id")
+        map_id = request.data.get("map_id")
+        uid = request.data.get("uid")
 
-        character_vehicle_id = CharacterVehicle.objects.get(pk=request.data["character_vehicle_id"])
+        try:
+            character = Character.objects.get(pk=character_id)
+            vehicle = Vehicle.objects.get(pk=vehicle_id)
+            map_instance = Map.objects.get(pk=map_id)
 
-        map_id = Map.objects.get(pk=request.data["map_id"])
-        
-        race = Race.objects.create(
-            character_vehicle_id=character_vehicle_id,
-            map_id=map_id
-        )
-        
-        serializer = RaceSerializer(race)
-        return Response(serializer.data, status=status.HTTP_201_CREATED)
+            race = Race(
+                character_id=character,
+                vehicle_id=vehicle,
+                map_id=map_instance,
+                uid=uid
+            )
+            race.save()
 
-    def update(self, request, pk):
-        """Handle PUT requests for a product
+            serializer = RaceSerializer(race)
+            return Response(serializer.data, status=status.HTTP_201_CREATED)
+        except (Character.DoesNotExist, Vehicle.DoesNotExist, Map.DoesNotExist) as e:
+            return Response({"error": "Invalid character, vehicle, or map ID."}, status=status.HTTP_400_BAD_REQUEST)
+
+    
+    def update(self, request, pk=None):
+        """Handle PUT requests for a race
 
         Returns:
         Response -- Empty body with 204 status code
         """
+        try:
+            race = Race.objects.get(pk=pk)
 
-        race = Race.objects.get(pk=pk)
-        race.character_vehicle_id = request.data["character_vehicle_id"]
-        race.map_id = request.data["map_id"]
+            # Get the updated map_id from the request data or keep the existing value if not provided
+            map_id = request.data.get("map_id", race.map_id_id)
 
-        race.save()
-        return Response(None, status=status.HTTP_204_NO_CONTENT)
+            # Ensure that the map_id is a valid Map instance
+            try:
+                map_instance = Map.objects.get(pk=map_id)
+            except Map.DoesNotExist:
+                return Response({"error": "Invalid map ID."}, status=status.HTTP_400_BAD_REQUEST)
 
+            # Update the race object with the new map_id
+            race.map_id_id = map_instance
+
+            race.save()
+
+            return Response({'message': 'Race Updated'}, status=status.HTTP_204_NO_CONTENT)
+        except Race.DoesNotExist:
+            return Response({"error": "Invalid race ID."}, status=status.HTTP_400_BAD_REQUEST)
+        
     def destroy(self, request, pk):
         """Delete Product
         """
