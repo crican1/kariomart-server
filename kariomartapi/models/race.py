@@ -1,7 +1,6 @@
 from django.db import models
 from .map import Map
 from .character import Character
-from .cup import Cup
 from .vehicle import Vehicle
 
 class Race(models.Model):
