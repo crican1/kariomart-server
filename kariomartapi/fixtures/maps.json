@@ -6,8 +6,7 @@
       "name": "Mushroom Kingdom",
       "difficulty": "Beginner",
       "theme": "",
-      "image_url": "https://example.com/mushroom_cup.png",
-      "cup": "Mushroom Cup"
+      "image_url": "https://example.com/mushroom_cup.png"
     }
   },
   {
@@ -17,8 +16,7 @@
       "name": "Flower Fields",
       "difficulty": "Beginner",
       "theme": "",
-      "image_url": "https://example.com/flower_cup.png",
-      "cup": "Flower Cup"
+      "image_url": "https://example.com/flower_cup.png"
     }
   },
   {
@@ -28,8 +26,7 @@
       "name": "Starry Skies",
       "difficulty": "Intermediate",
       "theme": "",
-      "image_url": "https://example.com/star_cup.png",
-      "cup": "Star Cup"
+      "image_url": "https://example.com/star_cup.png"
     }
   },
   {
@@ -39,8 +36,7 @@
       "name": "Special World",
       "difficulty": "Intermediate",
       "theme": "",
-      "image_url": "https://example.com/special_cup.png",
-      "cup": "Special Cup"
+      "image_url": "https://example.com/special_cup.png"
     }
   },
   {
@@ -50,8 +46,7 @@
       "name": "Koopa Troopa Beach",
       "difficulty": "Advanced",
       "theme": "",
-      "image_url": "https://example.com/shell_cup.png",
-      "cup": "Shell Cup"
+      "image_url": "https://example.com/shell_cup.png"
     }
   },
   {
@@ -61,8 +56,7 @@
       "name": "Donkey Kong Jungle",
       "difficulty": "Advanced",
       "theme": "",
-      "image_url": "https://example.com/banana_cup.png",
-      "cup": "Banana Cup"
+      "image_url": "https://example.com/banana_cup.png"
     }
   },
   {
@@ -72,8 +66,7 @@
       "name": "Autumn Leaves",
       "difficulty": "Expert",
       "theme": "",
-      "image_url": "https://example.com/leaf_cup.png",
-      "cup": "Leaf Cup"
+      "image_url": "https://example.com/leaf_cup.png"
     }
   },
   {
@@ -83,8 +76,7 @@
       "name": "Electric Circuit",
       "difficulty": "Expert",
       "theme": "",
-      "image_url": "https://example.com/lightning_cup.png",
-      "cup": "Electric Circuit"
+      "image_url": "https://example.com/lightning_cup.png"
     }
   }
 ]
