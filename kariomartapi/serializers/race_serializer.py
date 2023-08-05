@@ -7,5 +7,5 @@ class  RaceSerializer(serializers.ModelSerializer):
     """
     class Meta:
         model = Race
-        fields = ('id', 'character_vehicle_id', 'map_id')
+        fields = ('id', 'map_id', 'uid')
         depth = 3
