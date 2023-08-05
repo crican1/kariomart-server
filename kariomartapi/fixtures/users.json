@@ -1,0 +1,26 @@
+[
+  {
+    "model": "kariomartapi.user",
+    "pk": 1,
+    "fields": {
+      "uid": "UID001",
+      "name": "Alice"
+    }
+  },
+  {
+    "model": "kariomartapi.user",
+    "pk": 2,
+    "fields": {
+      "uid": "UID002",
+      "name": "Bob"
+    }
+  },
+  {
+    "model": "kariomartapi.user",
+    "pk": 3,
+    "fields": {
+      "uid": "UID003",
+      "name": "Carol"
+    }
+  }
+]
