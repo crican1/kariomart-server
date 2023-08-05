@@ -3,80 +3,88 @@
     "model": "kariomartapi.map",
     "pk": 1,
     "fields": {
-      "name": "Mushroom Cup",
+      "name": "Mushroom Kingdom",
       "difficulty": "Beginner",
-      "theme": "Mushroom Kingdom",
-      "image_url": "https://example.com/mushroom_cup.png"
+      "theme": "",
+      "image_url": "https://example.com/mushroom_cup.png",
+      "cup": "Mushroom Cup"
     }
   },
   {
     "model": "kariomartapi.map",
     "pk": 2,
     "fields": {
-      "name": "Flower Cup",
+      "name": "Flower Fields",
       "difficulty": "Beginner",
-      "theme": "Flower Fields",
-      "image_url": "https://example.com/flower_cup.png"
+      "theme": "",
+      "image_url": "https://example.com/flower_cup.png",
+      "cup": "Flower Cup"
     }
   },
   {
     "model": "kariomartapi.map",
     "pk": 3,
     "fields": {
-      "name": "Star Cup",
+      "name": "Starry Skies",
       "difficulty": "Intermediate",
-      "theme": "Starry Skies",
-      "image_url": "https://example.com/star_cup.png"
+      "theme": "",
+      "image_url": "https://example.com/star_cup.png",
+      "cup": "Star Cup"
     }
   },
   {
     "model": "kariomartapi.map",
     "pk": 4,
     "fields": {
-      "name": "Special Cup",
+      "name": "Special World",
       "difficulty": "Intermediate",
-      "theme": "Special World",
-      "image_url": "https://example.com/special_cup.png"
+      "theme": "",
+      "image_url": "https://example.com/special_cup.png",
+      "cup": "Special Cup"
     }
   },
   {
     "model": "kariomartapi.map",
     "pk": 5,
     "fields": {
-      "name": "Shell Cup",
+      "name": "Koopa Troopa Beach",
       "difficulty": "Advanced",
-      "theme": "Koopa Troopa Beach",
-      "image_url": "https://example.com/shell_cup.png"
+      "theme": "",
+      "image_url": "https://example.com/shell_cup.png",
+      "cup": "Shell Cup"
     }
   },
   {
     "model": "kariomartapi.map",
     "pk": 6,
     "fields": {
-      "name": "Banana Cup",
+      "name": "Donkey Kong Jungle",
       "difficulty": "Advanced",
-      "theme": "Donkey Kong Jungle",
-      "image_url": "https://example.com/banana_cup.png"
+      "theme": "",
+      "image_url": "https://example.com/banana_cup.png",
+      "cup": "Banana Cup"
     }
   },
   {
     "model": "kariomartapi.map",
     "pk": 7,
     "fields": {
-      "name": "Leaf Cup",
+      "name": "Autumn Leaves",
       "difficulty": "Expert",
-      "theme": "Autumn Leaves",
-      "image_url": "https://example.com/leaf_cup.png"
+      "theme": "",
+      "image_url": "https://example.com/leaf_cup.png",
+      "cup": "Leaf Cup"
     }
   },
   {
     "model": "kariomartapi.map",
     "pk": 8,
     "fields": {
-      "name": "Lightning Cup",
+      "name": "Electric Circuit",
       "difficulty": "Expert",
-      "theme": "Electric Circuit",
-      "image_url": "https://example.com/lightning_cup.png"
+      "theme": "",
+      "image_url": "https://example.com/lightning_cup.png",
+      "cup": "Electric Circuit"
     }
   }
 ]
