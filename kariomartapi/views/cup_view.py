@@ -1,7 +1,7 @@
 from django.http import HttpResponseServerError
 from rest_framework.viewsets import ViewSet
 from rest_framework.response import Response
-from rest_framework import serializers, status
+from rest_framework import status
 from kariomartapi.models import Cup, Race
 from kariomartapi.serializers import CupSerializer
 
@@ -27,8 +27,6 @@ class CupView(ViewSet):
         Returns:
             Response -- JSON serialized list of cups
         """
-
-        race_id = Cup.objects.all().filter(race_id=race_id)
                 
         cup = Cup.objects.all()
         serializer = CupSerializer(cup, many=True)

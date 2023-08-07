@@ -1,0 +1,80 @@
+cups
+
+{
+    "model": "kariomartapi.cup",
+    "pk": 4,
+    "fields": {
+      "name": "Flower Cup",
+      "race_id": 4
+    }
+  },
+  {
+    "model": "kariomartapi.cup",
+    "pk": 5,
+    "fields": {
+      "name": "Star Cup",
+      "race_id": 5
+    }
+  },
+  {
+    "model": "kariomartapi.cup",
+    "pk": 6,
+    "fields": {
+      "name": "Star Cup",
+      "race_id": 6
+    }
+  },
+  {
+    "model": "kariomartapi.cup",
+    "pk": 7,
+    "fields": {
+      "name": "Special Cup",
+      "race_id": 7
+    }
+  },
+  {
+    "model": "kariomartapi.cup",
+    "pk": 8,
+    "fields": {
+      "name": "Special Cup",
+      "race_id": 8
+    }
+  }
+
+  cup_races
+  ,  {
+    "model": "kariomartapi.cuprace",
+    "pk": 4,
+    "fields": {
+      "cup_id": 3,
+      "cup_race_id": 4
+    }
+  },  {
+    "model": "kariomartapi.cuprace",
+    "pk": 5,
+    "fields": {
+      "cup_id": 3,
+      "cup_race_id": 5
+    }
+  },  {
+    "model": "kariomartapi.cuprace",
+    "pk": 6,
+    "fields": {
+      "cup_id": 3,
+      "cup_race_id": 6
+    }
+  },  {
+    "model": "kariomartapi.cuprace",
+    "pk": 7,
+    "fields": {
+      "cup_id": 4,
+      "cup_race_id": 7
+    }
+  },  {
+    "model": "kariomartapi.cuprace",
+    "pk": 8,
+    "fields": {
+      "cup_id": 4,
+      "cup_race_id": 8
+    }
+  }
