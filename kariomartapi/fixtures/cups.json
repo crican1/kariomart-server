@@ -11,7 +11,7 @@
     "model": "kariomartapi.cup",
     "pk": 2,
     "fields": {
-      "name": "Mushroom Cup",
+      "name": "Star Cup",
       "race_id": 2
     }
   },

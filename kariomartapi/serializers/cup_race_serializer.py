@@ -7,3 +7,4 @@ class CupRaceSerializer(serializers.ModelSerializer):
     class Meta:
         model = CupRace
         fields = ('id', 'cup_id', 'cup_race_id')
+        depth = 3
