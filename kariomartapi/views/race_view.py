@@ -26,9 +26,9 @@ class RaceView(ViewSet):
         return Response(serializer.data)
 
     def create(self, request):
-        character_id = request.data.get("character_id")
-        vehicle_id = request.data.get("vehicle_id")
-        map_id = request.data.get("map_id")
+        character_id = request.data.get("characterId")
+        vehicle_id = request.data.get("vehicleId")
+        map_id = request.data.get("mapId")
         uid = request.data.get("uid")
 
         try:

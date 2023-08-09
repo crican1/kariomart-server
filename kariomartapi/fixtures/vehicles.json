@@ -4,7 +4,7 @@
     "pk": 1,
     "fields": {
       "name": "Standard Kart",
-      "image_url": "https://example.com/standard_kart.png"
+      "image_url": "https://mario.wiki.gallery/images/0/05/StandardKartBodyMK8.png"
     }
   },
   {
@@ -12,7 +12,7 @@
     "pk": 2,
     "fields": {
       "name": "Mach 8",
-      "image_url": "https://example.com/mach_8.png"
+      "image_url": "https://mario.wiki.gallery/images/1/12/MKT_Icon_Mach8.png"
     }
   },
   {
@@ -20,7 +20,7 @@
     "pk": 3,
     "fields": {
       "name": "Cat Cruiser",
-      "image_url": "https://example.com/cat_cruiser.png"
+      "image_url": "https://mario.wiki.gallery/images/b/be/MKT_Icon_CatCruiser.png"
     }
   },
   {
@@ -28,7 +28,7 @@
     "pk": 4,
     "fields": {
       "name": "Blue Falcon",
-      "image_url": "https://example.com/blue_falcon.png"
+      "image_url": "https://mario.wiki.gallery/images/f/f6/MK8BlueFalcon.png"
     }
   },
   {
@@ -36,7 +36,7 @@
     "pk": 5,
     "fields": {
       "name": "Biddybuggy",
-      "image_url": "https://example.com/biddybuggy.png"
+      "image_url": "https://mario.wiki.gallery/images/e/ec/MKT_Icon_Biddybuggy.png"
     }
   },
   {
@@ -44,7 +44,7 @@
     "pk": 6,
     "fields": {
       "name": "Flame Rider",
-      "image_url": "https://example.com/flame_rider.png"
+      "image_url": "https://mario.wiki.gallery/images/3/31/FlameRiderBodyMK8.png"
     }
   },
   {
@@ -52,7 +52,7 @@
     "pk": 7,
     "fields": {
       "name": "Teddy Buggy",
-      "image_url": "https://example.com/teddy_buggy.png"
+      "image_url": "https://mario.wiki.gallery/images/f/fa/TeddyBuggyBodyMK8.png"
     }
   },
   {
@@ -60,7 +60,7 @@
     "pk": 8,
     "fields": {
       "name": "Sports Coupe",
-      "image_url": "https://example.com/sports_coupe.png"
+      "image_url": "https://mario.wiki.gallery/images/c/c8/MKT_Icon_SportsCoupe.png"
     }
   }
 ]

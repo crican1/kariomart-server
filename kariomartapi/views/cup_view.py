@@ -43,6 +43,7 @@ class CupView(ViewSet):
         cup = Cup.objects.create(
             name=request.data["name"],
             race_id=race_id,
+            image_url=request.data["imageUrl"]
         )
         serializer = CupSerializer(cup)
         return Response(serializer.data)
@@ -63,6 +64,7 @@ class CupView(ViewSet):
 
         # Update the Cup instance with the retrieved Race instances
         cup.name = request.data["name"]
+        cup.image_url = request.data["imageUrl"]
         cup.race_id = race
         Cup.save()
 
