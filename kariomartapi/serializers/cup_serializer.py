@@ -6,4 +6,4 @@ class CupSerializer(serializers.ModelSerializer):
 
     class Meta:
         model = Cup
-        fields = ('id', 'name', 'race_id')
+        fields = ('id', 'name', 'race_id', 'image_url')

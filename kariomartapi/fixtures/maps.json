@@ -6,7 +6,7 @@
       "name": "Mushroom City",
       "difficulty": "Beginner",
       "theme": "City",
-      "image_url": "https://mario.wiki.gallery/images/c/cb/Mario_Kart_8_-_Mushroom_Cup_logo.svg"
+      "image_url": "https://mario.wiki.gallery/images/thumb/0/0b/MKDD_MushroomCity.png/1600px-MKDD_MushroomCity.png"
     }
   },
   {
@@ -16,7 +16,7 @@
       "name": "Luigi Circuit",
       "difficulty": "Beginner",
       "theme": "Circuit",
-      "image_url": "https://mario.wiki.gallery/images/c/cb/Mario_Kart_8_-_Mushroom_Cup_logo.svg"
+      "image_url": "https://mario.wiki.gallery/images/8/8b/Luigi_Circuit_MKWii.png"
     }
   },
   {
@@ -26,7 +26,7 @@
       "name": "Boo Lake",
       "difficulty": "Intermediate",
       "theme": "Water",
-      "image_url": "https://mario.wiki.gallery/images/0/0b/Mario_Kart_8_-_Flower_Cup_logo.svg"
+      "image_url": "https://mario.wiki.gallery/images/5/5c/Boo-lake-2x.jpg"
     }
   },
   {
@@ -36,7 +36,7 @@
       "name": "Waluigi Stadium",
       "difficulty": "Intermediate",
       "theme": "Stadium",
-      "image_url": "https://mario.wiki.gallery/images/0/0b/Mario_Kart_8_-_Flower_Cup_logo.svg"
+      "image_url": "https://mario.wiki.gallery/images/7/71/MK8D_GCN_Waluigi_Stadium_Scene_4.jpg"
     }
   },
   {
@@ -46,7 +46,7 @@
       "name": "Snow Land",
       "difficulty": "Advanced",
       "theme": "Snow",
-      "image_url": "https://mario.wiki.gallery/images/7/7a/MK8_Star_Cup_Alternate_Emblem.svg"
+      "image_url": "https://mario.wiki.gallery/images/e/e1/MKT_GBA_Snow_Land_Scene_1.png"
     }
   },
   {
@@ -56,7 +56,7 @@
       "name": "Sunshine Airport",
       "difficulty": "Advanced",
       "theme": "City",
-      "image_url": "https://mario.wiki.gallery/images/7/7a/MK8_Star_Cup_Alternate_Emblem.svg"
+      "image_url": "https://mario.wiki.gallery/images/9/91/MK8-Course-SunshineAirport.jpg"
     }
   },
   {
@@ -66,7 +66,7 @@
       "name": "Broken Pier",
       "difficulty": "Expert",
       "theme": "Water",
-      "image_url": "https://mario.wiki.gallery/images/4/4b/MK8_Special_Cup_Alternate_Emblem.svg"
+      "image_url": "https://i.ytimg.com/vi/Rwp3aAW8YFI/maxresdefault.jpg"
     }
   },
   {
@@ -76,7 +76,7 @@
       "name": "Dino Dino Jungle",
       "difficulty": "Expert",
       "theme": "Jungle",
-      "image_url": "https://mario.wiki.gallery/images/4/4b/MK8_Special_Cup_Alternate_Emblem.svg"
+      "image_url": "https://mario.wiki.gallery/images/6/6f/DinoDinoJungleMK7.png"
     }
   }
 ]

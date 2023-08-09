@@ -5,7 +5,7 @@
     "fields": {
       "name": "Mario",
       "favorite": true,
-      "image_url": "https://example.com/mario.png"
+      "image_url": "https://mario.wiki.gallery/images/d/d9/MK8_Mario_Icon.png"
     }
   },
   {
@@ -14,7 +14,7 @@
     "fields": {
       "name": "Toad",
       "favorite": false,
-      "image_url": "https://example.com/toad.png"
+      "image_url": "https://mario.wiki.gallery/images/4/45/MK8_Toad_Icon.png"
     }
   },
   {
@@ -23,7 +23,7 @@
     "fields": {
       "name": "Luigi",
       "favorite": true,
-      "image_url": "https://example.com/luigi.png"
+      "image_url": "https://mario.wiki.gallery/images/5/51/MK8_Luigi_Icon.png"
     }
   },
   {
@@ -32,7 +32,7 @@
     "fields": {
       "name": "Princess Peach",
       "favorite": false,
-      "image_url": "https://example.com/peach.png"
+      "image_url": "https://mario.wiki.gallery/images/c/c2/MK8_Peach_Icon.png"
     }
   },
   {
@@ -41,7 +41,7 @@
     "fields": {
       "name": "Yoshi",
       "favorite": true,
-      "image_url": "https://example.com/yoshi.png"
+      "image_url": "https://mario.wiki.gallery/images/9/91/MK8_Yoshi_Icon.png"
     }
   },
   {
@@ -50,7 +50,7 @@
     "fields": {
       "name": "Bowser",
       "favorite": false,
-      "image_url": "https://example.com/bowser.png"
+      "image_url": "https://mario.wiki.gallery/images/4/47/MK8_Bowser_Icon.png"
     }
   },
   {
@@ -59,7 +59,7 @@
     "fields": {
       "name": "Donkey Kong",
       "favorite": true,
-      "image_url": "https://example.com/donkey_kong.png"
+      "image_url": "https://mario.wiki.gallery/images/0/08/MK8_DKong_Icon.png"
     }
   },
   {
@@ -68,7 +68,7 @@
     "fields": {
       "name": "Wario",
       "favorite": false,
-      "image_url": "https://example.com/wario.png"
+      "image_url": "https://mario.wiki.gallery/images/c/c2/MK8_Wario_Icon.png"
     }
   }
 ]

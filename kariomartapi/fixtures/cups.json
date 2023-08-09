@@ -4,7 +4,8 @@
     "pk": 1,
     "fields": {
       "name": "Mushroom Cup",
-      "race_id": 1
+      "race_id": 1,
+      "image_url": "https://mario.wiki.gallery/images/c/cb/Mario_Kart_8_-_Mushroom_Cup_logo.svg"
     }
   },
   {
@@ -12,7 +13,8 @@
     "pk": 2,
     "fields": {
       "name": "Star Cup",
-      "race_id": 2
+      "race_id": 2,
+      "image_url": "https://mario.wiki.gallery/images/7/7a/MK8_Star_Cup_Alternate_Emblem.svg"
     }
   },
   {
@@ -20,7 +22,8 @@
     "pk": 3,
     "fields": {
       "name": "Flower Cup",
-      "race_id": 3
+      "race_id": 3,
+      "image_url": "https://mario.wiki.gallery/images/0/0b/Mario_Kart_8_-_Flower_Cup_logo.svg"
     }
   }
 ]
